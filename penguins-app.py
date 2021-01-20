@@ -88,3 +88,5 @@ st.write(penguins_species[prediction])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+st.image([image1,image2]) 
