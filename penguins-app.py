@@ -3,7 +3,10 @@ import pandas as pd
 import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
+from PIL import Image
 
+image1 = Image.open('sunrise.png')
+image2 = Image.open('sunrise.png')
 # hide the fotter of streamlit
 hide_streamlit_style = """
 <style>
