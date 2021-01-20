@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
+
+# hide the fotter of streamlit
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
