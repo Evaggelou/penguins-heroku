@@ -5,8 +5,8 @@ import pickle
 from sklearn.ensemble import RandomForestClassifier
 from PIL import Image
 
-image1 = Image.open('sunrise.png')
-image2 = Image.open('sunrise.png')
+image1 = Image.open('image1.png')
+image2 = Image.open('image2.png')
 # hide the fotter of streamlit
 hide_streamlit_style = """
 <style>
