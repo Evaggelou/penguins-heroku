@@ -5,8 +5,8 @@ import pickle
 from sklearn.ensemble import RandomForestClassifier
 from PIL import Image
 
-image1 = Image.open('image1.png')
-image2 = Image.open('image2.png')
+# image1 = Image.open('image1.png')
+# image2 = Image.open('image2.png')
 # hide the fotter of streamlit
 hide_streamlit_style = """
 <style>
@@ -92,4 +92,4 @@ st.write(penguins_species[prediction])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-st.image([image1,image2]) 
+# st.image([image1,image2]) 
